@@ -1,0 +1,33 @@
+# 忽略构建目录
+/build/
+
+# 忽略 CMake 生成的缓存文件
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# 忽略编译生成的二进制文件
+*.o
+*.a
+*.so
+*.out
+*.exe
+
+# 忽略调试符号文件
+*.dSYM/
+
+# 忽略 IDE 配置文件
+# 针对 CLion
+.idea/
+
+# 针对 Visual Studio
+.vscode/
+.vs/
+
+# 忽略日志文件
+*.log
+
+# 忽略操作系统生成的文件
+.DS_Store       # macOS
+Thumbs.db       # Windows
